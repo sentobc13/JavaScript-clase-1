@@ -75,7 +75,7 @@ const casa = {
 };
 console.log(casa);
 const FullStackDeveloper = {
-    lenguajes: ['javascript','php'],
+    lenguajes: ['javascript', 'php'],
     proyectos: ['mi página personal', 'carta html y css'],
 };
 const perro = {
@@ -96,11 +96,50 @@ const persona = {
 console.log(persona.nombre);
 console.log(FullStackDeveloper.lenguajes[0]);
 
-const portatil = {
+let portatil = {
     marca: 'Asus',
 };
 console.log(portatil.marca);
 console.log(portatil['marca']);
 const concierto = {
-    
-}
+    grupos: ['Infinity song', 'sakanaction', 'jungle']
+};
+console.log(concierto.grupos);
+const led = {
+    lampara1: 'rojo',
+    lampara2: 'verde',
+    lampara3: 'azul',
+};
+const arrayRGB = [led.lampara1, led.lampara2, led.lampara3];
+console.log(arrayRGB);
+
+const O_Error = {
+    codigo: '404',
+};
+const codigo = O_Error.codigo;
+console.log(codigo);
+
+const grupo = {
+    integrantes: ['Paco', 'Carla', 'Alba', 'Javi'],
+};
+const integrantes = grupo.integrantes;
+console.log(integrantes[2]);
+
+const impresora = {
+    tinta: ['rojo', 'verde', 'auzl'],
+};
+const nivelesTinta = impresora.tinta;
+console.log(nivelesTinta);
+
+const movil = {
+    especificaciones: ['128GB', 'iphone', 'rojo'],
+};
+const especificaciones = movil.especificaciones
+console.log(especificaciones);
+
+//portatil cambiar a MSI??
+
+concierto.grupos.push('Guns N Roses');
+console.log(concierto.grupos);
+
+concierto.fecha = '11 de febrero';
