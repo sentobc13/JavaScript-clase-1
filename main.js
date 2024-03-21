@@ -137,9 +137,18 @@ const movil = {
 const especificaciones = movil.especificaciones
 console.log(especificaciones);
 
-//portatil cambiar a MSI??
+
+portatil.marca = "msi"
+console.log(portatil.marca);
 
 concierto.grupos.push('Guns N Roses');
 console.log(concierto.grupos);
 
 concierto.fecha = '11 de febrero';
+console.log(concierto.fecha);
+console.log(concierto);
+concierto.fecha = new Date();
+console.log(concierto.fecha);
+
+grupo.integrantes.pop()
+console.log(grupo.integrantes.length);
